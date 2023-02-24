@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masonry</title>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script src="/path/to/masonry.pkgd.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+</head>
+<body>
+<h1>Nina the Explora</h1>
+<div class="grid">
+    <div class="grid-item">
+        <img src="img/chinchon.jpeg" />
+    </div>
+    <div class="grid-item">
+        <img src="img/friligianna.jpeg">
+    </div>
+    <div class="grid-item">
+        <img src="img/aveiro.JPG">
+    </div>
+    <div class="grid-item">
+        <img src="img/malaga-views.jpeg" />
+    </div>
+    <div class="grid-item">
+        <img src="img/cat-shines.JPG" />
+    </div>
+    <div class="grid-item">
+        <img src="img/malaga.jpeg" />
+    </div>
+    <div class="grid-item">
+        <img src="img/montreal.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="img/pink-skies.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="img/porto-buildings.JPG" />
+    </div>
+    <div class="grid-item">
+        <img src="img/porto-riberia.JPG" />
+    </div>
+    <div class="grid-item">
+        <img src="img/salamanca.jpeg" />
+    </div>
+</div>
+<script>
+    $(".grid").imagesLoaded(function() {
+        $(".grid").masonry({
+          itemSelector: ".grid-item"
+        });
+      });
+</script>
+</body>
+</html>
