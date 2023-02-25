@@ -8,4 +8,3 @@ Basic page layout using a unique dynamic, responsive layout system that restrict
 * Ability to incorporate filtering of content using Isotope plugin.
 * Competence in using jQuery Pinterest Grid Plugin for creating Pinterest-style grid layouts.
 * Creativity in customizing and integrating own content, such as photographs or project screenshots, into the dynamic layout.
-* Communication skills in writing brief descriptions of skills, software, techniques, and languages that can be offered to an employer, and presenting them visually using boxes as content.
